@@ -34,7 +34,7 @@ const BrowserData = () => {
               <div className=' overflow-auto h-[34.7vh] space-y-[1vh] mt-[2vh]'>
         <div className='flex flex-row'>
               <p className='px-[5vw] text-[2.65vh] flex flex-row'><span>{Object.keys(eventData).map((item,i) => (<p key={i}>You have visited 
-//                                             <span>{Math.floor((eventData[item].time_on_site)/1000)}</span> 
+                                          //  <span>{Math.floor((eventData[item].time_on_site)/1000)}</span> 
                          {item.slice(0,25)} webpage</p>))}</span><span className='flex flex-col'>{Object.keys(eventData).map(() => (<span className='px-24 text-red-500 text-2xl'>X</span>))}</span></p>
         </div>
       </div>
